@@ -1,0 +1,626 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* a:hover {
+    transition: 0.5s;
+}
+
+body {
+    font-family: 'SF Pro Display';
+}
+
+.header {
+    background-color: #11161E;
+    width: 100%;
+    height: 900px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.nav__links {
+    font-family: "SF Pro Display";
+    color: #76869FCC;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+.nav__links:hover {
+    color: #5CA35B;
+    transition: 0.6s all;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+
+.header__discription h1 {
+    font-family: "SFProDisplay-Light";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    text-align: left;
+    color: #fff;
+
+}
+
+.header__discription p {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 129.8%;
+    color: #6A7C95;
+}
+
+.header__discription button {
+    margin-top: 40px;
+    background: #5CA35B;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.header__discription button:hover {
+    background-color: #5a9459e6;
+    transition: 0.5s;
+}
+
+.header__discription button a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.create-page {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 12px 12px 15px;
+
+}
+
+.header__smartphones {
+    margin-top: 20px;
+
+}
+
+.shape {
+    position: relative;
+}
+
+.smartphones {
+    position: absolute;
+    bottom: 30px;
+    right: -60px;
+}
+
+/*callback*/
+.callback {
+    display: flex;
+    margin-left: 115px;
+    margin-top: 150px;
+}
+
+.callback__number {
+    display: flex;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 151.3%;
+    align-items: center;
+    color: #76869FCC;
+    margin-right: 25px;
+}
+
+.callback__number img {
+    margin-right: 12px;
+}
+
+.callback__mail {
+    display: flex;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 151.3%;
+    align-items: center;
+    color: #76869FCC;
+}
+
+.callback__mail img {
+    margin-right: 12px;
+}
+
+/*about company*/
+
+.about_company {
+    width: 100%;
+    height: 800px;
+    background-color: #181F29;
+    padding: 100px 0 0 100px;
+}
+
+.about_company-discription {
+    color: #fff;
+    margin-left: 28px;
+}
+
+.about_company-discription h1 {
+    font-family: "SF Pro Display";
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.about_company-discription p {
+    font-size: 16px;
+    line-height: 142.8%;
+    color: #6A7C95;
+
+}
+
+.about_company-item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+
+}
+
+.about_company__more {
+    text-align: center;
+    width: 250px;
+    height: 270px;
+    background: #273140;
+    border-radius: 15px;
+    margin-right: 100px;
+}
+
+.about_company__more img {
+    padding-top: 10px;
+}
+
+.about_company__more h1 {
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 25px;
+
+}
+
+.safe {
+    padding-top: 15px;
+}
+
+.about_company__more p {
+    color: #717E92;
+
+}
+
+/*possibilites*/
+
+.possibilites {
+    background-color: #11161E;
+}
+
+.possibilites__discription {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.possibilites__discription h1 {
+    color: #fff;
+}
+
+.possibilites__discription p {
+    color: #6A7C95;
+    padding-bottom: 30px;
+}
+
+.possibilites__logos {
+    padding-left: 100px;
+}
+
+.possibilites__logos img {
+    margin-right: 25px;
+    padding-bottom: 175px;
+}
+
+.conveniences {
+    display: flex;
+    padding-left: 100px;
+    width: 100%;
+    height: 470px;
+    background-color: #181F29;
+}
+
+.conveniences__disc {
+    padding-top: 140px;
+}
+
+.conveniences__disc h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.conveniences__disc p {
+    color: #6A7C95;
+    font-size: 18px;
+    padding-bottom: 30px;
+
+}
+
+.conveniences__disc button {
+    background-color: #212A38;
+    border: none;
+
+}
+
+.conveniences__disc button a {
+    color: #6A7C95;
+    text-decoration: none;
+    background-color: #212A38;
+    padding: 11px 15px 12px 15px;
+    border-radius: 10px;
+}
+
+.conveniences__disc button a:hover {
+    background-color: #29364a;
+    transition: 0.5s;
+}
+
+.conveniences__img {
+    padding-top: 110px;
+}
+
+/*prices*/
+
+.prices {
+    width: 100%;
+    height: 820px;
+    background-color: #11161E;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.prices .container {}
+
+.prices .prices__title {}
+
+.prices .prices__title h1 {
+    font-family: "SF Pro Display";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    color: #fff;
+}
+
+.prices .prices__title p {
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    color: #6A7C95;
+}
+
+.prices__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+
+}
+
+.prices__disc {
+    width: 290px;
+    height: 390px;
+    background-color: #273140;
+    box-shadow: 0px 1px 26px rgba(24, 31, 41, 0.15);
+    border-radius: 15px;
+    margin-right: 50px;
+
+
+}
+
+.prices__disc h1 {
+    font-family: "Mont";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+
+}
+
+.prices__disc p {
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 142.8%;
+    text-align: center;
+    color: #717E92;
+
+}
+
+.prices-list {
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160.3%;
+    list-style-position: inside;
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
+
+.prices-list__white {
+    color: #717E92;
+
+}
+
+.prices-list__gray {
+    color: #384456;
+}
+
+.prices__cards-button_1,
+.prices__cards-button_2,
+.prices__cards-button_3 {
+    border: none;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.prices__cards-button_1 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 45px;
+    background-color: #6A7395;
+    border-radius: 5px;
+
+}
+
+.prices__cards-button_1 a:hover {
+    background-color: #8a95bf;
+
+}
+
+.prices__cards-button_2 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 45px;
+    background-color: #6A9590;
+    border-radius: 5px;
+
+}
+
+.prices__cards-button_2 a:hover {
+    background-color: #7fb3ad;
+
+}
+
+.prices__cards-button_3 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 45px;
+    background-color: #95936A;
+    border-radius: 5px;
+
+}
+
+.prices__cards-button_3 a:hover {
+    background-color: #b9b67a;
+}
+
+/*update*/
+
+.update {
+    width: 100%;
+    height: 370px;
+    background-color: #181F29;
+    padding-left: 100px;
+    padding-top: 60px;
+    color: #fff;
+}
+
+.update h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.update p {
+    font-size: 18px;
+    color: #6A7C95;
+    padding-top: 10px;
+}
+
+.update__social-network {
+    padding-top: 40px;
+}
+
+.update ul {
+    display: flex;
+    list-style: none;
+}
+
+.update li {
+    font-size: 22px;
+    margin-right: 20px;
+    color: #fff;
+    width: 63.35px;
+    height: 63.35px;
+    position: relative;
+
+}
+
+.update a {
+    display: block;
+    color: #fff;
+    border-radius: 50px;
+    height: 63.35px;
+    border-radius: 0px;
+
+}
+
+.telegram {
+    position: relative;
+    width: 63.35px;
+    height: 63.35px;
+    background-color: #2F89CE;
+    border-radius: 50%;
+
+}
+
+.telegram:hover {
+    display: block;
+    font-size: 26px;
+    box-shadow: 10px #fff;
+    position: relative;
+    width: 65.35px;
+    height: 65.35px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #2F89CE, 0 0 10px #2F89CE, 0 0 80px #2F89CE;
+
+}
+
+.fa-telegram-plane {
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    top: 20px;
+
+}
+
+.vk {
+    position: relative;
+    width: 63.35px;
+    height: 63.35px;
+    background-color: #7294C7;
+    border-radius: 50%;
+}
+
+.vk:hover {
+    display: block;
+    font-size: 25px;
+    box-shadow: 10px #fff;
+    position: relative;
+    width: 65.35px;
+    height: 65.35px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #7294C7, 0 0 10px #7294C7, 0 0 80px #7294C7;
+}
+
+.fa-vk {
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    top: 22px;
+
+}
+
+.instagram {
+    position: relative;
+    width: 63.35px;
+    height: 63.35px;
+    border-radius: 50%;
+    background: linear-gradient(43.94deg, #EEA054 16.16%, #D64763 50.11%, #B62A99 83.68%);
+}
+
+.instagram:hover {
+    display: block;
+    font-size: 26px;
+    box-shadow: 10px #fff;
+    position: relative;
+    width: 65.35px;
+    height: 65.35px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #B62A99, 0 0 10px #B62A99, 0 0 50px #B62A99;
+}
+
+.fa-instagram {
+    position: absolute;
+    text-align: center;
+    left: 22px;
+    top: 20px;
+
+}
+
+
+.fb {
+    position: relative;
+    width: 63.35px;
+    height: 63.35px;
+    border-radius: 50%;
+    background-color: #4E6297;
+}
+
+.fb:hover {
+    display: block;
+    font-size: 26px;
+    box-shadow: 10px #fff;
+    position: relative;
+    width: 65.35px;
+    height: 65.35px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #4E6297, 0 0 10px #4E6297, 0 0 50px #4E6297;
+    background-color: #4E6297;
+}
+
+.fa-facebook-f {
+    position: absolute;
+    text-align: center;
+    left: 25px;
+    top: 20px;
+}
+
+
+/*footer*/
+
+.footer {
+    padding-left: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #11161E;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.footer__logo {
+    display: flex;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #2D3746;
+}
+
+
+.footer__img {
+    margin-right: 10px;
+}
+
+.last {
+    text-align: right;
+    padding-right: 30px;
+
+}
